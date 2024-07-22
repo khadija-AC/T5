@@ -157,6 +157,9 @@ jobs:
       - name: git add
         run: git add .
 
+      - name: Identification
+        run : git config --global user.name "khadija-AC"
+
       - name: git commit
         run: git commit -m "first commit"
       
